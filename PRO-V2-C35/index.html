@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Zen</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+
+    <script>
+      // Configuração do Firebase do seu aplicativo da web
+      //adicione aqui 
+      const firebaseConfig = {
+  apiKey: "AIzaSyB85Y_plIY7oeej_ZD-t8u3okaNQtfrpmo",
+  authDomain: "bolinha-andando.firebaseapp.com",
+  databaseURL: "https://bolinha-andando-default-rtdb.firebaseio.com",
+  projectId: "bolinha-andando",
+  storageBucket: "bolinha-andando.appspot.com",
+  messagingSenderId: "122684813351",
+  appId: "1:122684813351:web:36294e6bd7a3f4abda5e02",
+  measurementId: "G-2BQ5MYCJVW"
+};
+      // Inicializar Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+</html>
